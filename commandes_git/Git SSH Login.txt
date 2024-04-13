@@ -1,0 +1,13 @@
+
+$ cat .git/config
+$ cd
+$ rm -rf .ssh/*
+$ ssh-keygen.exe
+$ ls .ssh
+$ ls .ssh/
+$ cat .ssh/id_rsa.pub
+=> copy this keygen => Go to your Github => Account settings => SSH and GPG keys (click on that) => Give some title => Paste public key
+$ cd /c/vagrant-vms/gitrepos/
+$ rm -rf titanwork
+$ git clone git@github.com:Etidevcode/git_detvops.git
+

@@ -1,0 +1,41 @@
+git branch -c sprint1 (create a branch commands)
+git branch -a
+ls
+git checkout sprint1
+ls
+git rm saturn6.py saturn7.py saturn8.py saturn9.py
+ls
+git status
+git mv saturn1.py saturn11.py
+ls
+git rm saturn2.py saturn3.py saturn4.py saturn5.py
+touch jupiter{1..4}.rb
+ls
+git add .
+git commit -m "jupiter changes"
+git push origin sprint1
+git pull
+git checkout sprint2 (create a branch manually in github)
+ls
+touch sun earth venus mercury
+ls
+git add .
+git commit -m "planets & stars"
+git push origin sprint2
+git branch -a
+git switch sprint1
+ls
+git switch main
+ls
+git merge sprint1
+ls
+cd ..
+ls
+cd titanwork/
+git push --all origin
+cd ..
+rm -rf titanwork/
+git clone https://github.com/Etidevcode/git_detvops.git
+ls
+cd git_detvops/
+ls

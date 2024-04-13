@@ -1,0 +1,29 @@
+ ls
+vim jupiter1.rb
+cat jupiter1.rb
+git checkout jupiter1.rb
+cat jupiter1.rb
+vim jupiter1.rb
+git status
+git diff
+git status
+git diff
+git add .
+git status
+git diff
+git diff --cached
+git restore --staged jupiter1.rb
+git status
+git diff
+git add .
+git commited -m "playbook"
+git status
+git diff
+git diff --cached
+git log --oneline
+git diff dfd846a..91b9b5a
+git revert HEAD
+cat jupiter1.rb
+git log --oneline
+git reset --hard 91b9b5a
+git log --oneline

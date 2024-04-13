@@ -1,0 +1,45 @@
+mkdir titanwork
+cd titanwork/
+git init
+ls
+ls -a
+mkdir nebula
+mkdir jupiter
+mkdir pluto
+ls
+touch saturn{1..10}.py
+ls
+touch jupiter/test1
+touch nebula/testter32
+touch pluto/taster89
+ls
+git status
+git add .
+git status
+git commit -m "new files"
+git status
+git remote add origin https://github.com/Etidevcode/git_devops.git
+cat .git/config
+git branch -M main
+git config --gloabl user.email ``XXXXXXXXXXXX``
+git config --global user.name ``XXXXXXXXXXXXX``
+git push -u origin main
+ls
+vim saturn1.py
+git status
+git add saturn1.py
+git add .
+git commit -m 'saturns moons.'
+git push -u origin main
+git log
+git log --oneline
+git show 2eb944b
+vim saturn1.py
+git add saturn1.py
+git commit -m "updated saturns moon names"
+git push -u origin main
+git log --oneline
+git show b6e7344
+git pull
+cat saturn10.py
+git log
